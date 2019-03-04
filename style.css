@@ -4,3 +4,21 @@ body {
   height: 100vh;
 }
 
+.headtitle {
+  color: blue;
+  height: 30%;
+  width: 100%;
+}
+    
+.choosepath {
+  display: flex;
+  color: white;
+  height: 40%;
+  width: 100%;
+}
+    
+.aboutgame {
+  color: red;
+  height: 30%;
+  width: 100%;
+}
