@@ -1,24 +1,36 @@
 body {
-  display: block;
-  width: 100vw;
-  height: 100vh;
+	display: block;
+	width: 100vw;
+	height: 100vh;
 }
 
 .headtitle {
-  color: blue;
-  height: 30%;
-  width: 100%;
+	height: 20%;
+	width: 100%;
 }
     
-.choosepath {
-  display: flex;
-  color: white;
-  height: 40%;
-  width: 100%;
+.pathholder {
+	display: flex;
+	height: 50%;
+	width: 100%;
 }
     
 .aboutgame {
-  color: red;
-  height: 30%;
-  width: 100%;
-}
+	height: 30%;
+	width: 100%;
+ }
+ 
+ .cov {
+	height: 100%;
+	width: 50%;
+ }
+ 
+ .cov:hover {
+	filter: opacity(50%);
+ }
+ 
+ .center-content {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+ }
